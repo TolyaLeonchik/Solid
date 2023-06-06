@@ -1,5 +1,5 @@
-package SOLID.D.Bad_D;
+package SOLID.D.Good_D;
 
 public interface PizzaCutting {
-    void pizzaCutter();
+    void cutting();
 }

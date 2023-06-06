@@ -1,7 +1,5 @@
 package SOLID.I.Good_I;
 
-public interface TypeOfHelicopter {
-    void penthouse();
-    void oneStoryHouse();
-    void multiStoryHouse();
+public interface MilitaryHelicopter {
+     void military(int countOfRockets, int targetTime);
 }

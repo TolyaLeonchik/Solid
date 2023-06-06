@@ -1,8 +1,8 @@
-package SOLID.D.Bad_D;
+package SOLID.D.Good_D;
 
-public class Chef extends PizzaMaking{
+public class Chef implements PizzaCutting {
     @Override
-    public void pizzaCutter() {
-        System.out.println("Cutting ingredients for pizza"); //режет ингридиенты ножом для пиццы
+    public void cutting() {
+        System.out.println("Cutting with knife ingredients for pizza");
     }
 }

@@ -1,8 +1,8 @@
-package SOLID.D.Bad_D;
+package SOLID.D.Good_D;
 
-public class PizzaMaker extends PizzaMaking {
+public class PizzaMaker implements PizzaCutting {
     @Override
-    public void pizzaCutter() {
+    public void cutting() {
         System.out.println("Cutting with pizza cutter");
     }
 }

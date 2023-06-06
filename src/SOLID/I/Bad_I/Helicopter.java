@@ -1,9 +1,8 @@
 package SOLID.I.Bad_I;
 
-public class House implements BadInterface{
+public class Helicopter implements BadInterface{
     double price;
     String color;
-    int countOfRooms;
 
     @Override
     public void setPrice(double price) {
@@ -16,42 +15,13 @@ public class House implements BadInterface{
     }
 
     @Override
-    public void numberOfRooms(int countOfRooms) {
-        this.countOfRooms = countOfRooms;
+    public void military() {
+        int countOfRockets;
+        int targetTime;
     }
 
     @Override
-    public void buy() {
-
-    }
-
-    @Override
-    public void decorate() {
-
-    }
-
-    @Override
-    public void sell() {
-
-    }
-
-    @Override
-    public void destroy() {
-
-    }
-
-    @Override
-    public void penthouse() {
-
-    }
-
-    @Override
-    public void oneStoryHouse() {
-
-    }
-
-    @Override
-    public void multiStoryHouse() {
-
+    public void civilian() {
+        int countOfPassengers;
     }
 }

@@ -1,7 +1,8 @@
-package SOLID.I.Good_I;
+package SOLID.I.Bad_I;
 
 public interface BadInterface {
     void setPrice(double price);
     void setColor(String color);
-    void numberOfRooms(int countOfRooms);
+    void military();
+    void civilian();
 }
